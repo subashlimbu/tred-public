@@ -58,7 +58,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
   },
   cardContainer: {
-    marginTop: "10px",
+    marginTop: "30px",
     marginBottom: "30px",
   },
   blockTitle: {
@@ -66,7 +66,7 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: "Playfair Display, serif",
     fontSize: theme.titleSmall,
     color: theme.palette.charcoal,
-    marginTop: "80px",
+    marginTop: "100px",
     [theme.breakpoints.up("sm")]: {
       fontSize: theme.titleBig,
     },
@@ -91,11 +91,11 @@ export default function FAQs() {
           tred
         </Button>
       </AppBar>
-      <Grid alignItems="stretch" spacing={4} container>
-        <Grid item xs={12}>
+      <Grid alignItems="stretch" spacing={4} m={60} container>
+        <Grid item xs={12} m={100}>
           <Card border={0} className={classes.card}>
             <Paper className={classes.paper}>
-              <Typography className={classes.blockTitle} variant="h5" m={50}>
+              <Typography className={classes.blockTitle} variant="h5" p={50}>
                 Frequently Asked Questions
               </Typography>
             </Paper>
