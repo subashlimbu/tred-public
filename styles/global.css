@@ -1,0 +1,9 @@
+html,
+body {
+	font-size: 10px;
+	-webkit-font-smoothing: 'antialiased';
+	scroll-behavior: 'smooth';
+	height: '100%';
+	width: '100%';
+	overflow-x: hidden;
+}
